@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>476</width>
+    <height>293</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget \t Test</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="4" column="2">
+    <widget class="QLineEdit" name="txtPartNo"/>
+   </item>
+   <item row="0" column="0" rowspan="7">
+    <widget class="QLabel" name="label_5">
+     <property name="maximumSize">
+      <size>
+       <width>200</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>C:/Users/bagavathi/Desktop/no_image.jpg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLabel" name="Item">
+     <property name="text">
+      <string>Item</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QLineEdit" name="txtItem"/>
+   </item>
+   <item row="5" column="2">
+    <widget class="QLineEdit" name="txtManufacturer"/>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Part Number</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <widget class="QComboBox" name="cmbCatagory">
+     <item>
+      <property name="text">
+       <string>Components</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Hardware Unit</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>PC &amp; Laptop</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Software</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Catagory</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Description</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QPlainTextEdit" name="txtDesc"/>
+   </item>
+   <item row="6" column="2">
+    <widget class="QPushButton" name="btnStore">
+     <property name="text">
+      <string>Store</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>Manufacturer</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
